@@ -3,7 +3,7 @@
 body {
   font-family: 'Raleway', serif;
   font-size: 12px !important;
-  background-color: #222222 !important;
+  background-color: #444 !important;
   color: #eeeeee !important;
   letter-spacing: 1px;
   margin: 0px;
@@ -47,7 +47,7 @@ a:hover {
 /* --- NAVIGATION BAR --- */
 
 .bg-dark {
-  background-color: #222!important;
+  background-color: #444!important;
 }
 
 .navbar-brand {

@@ -337,8 +337,14 @@ col:first-child {
   }
 }
 
-.sponsorimage {
+.sponsorimagedark {
+  max-width: 400px;
   background-color: #eee;
+  padding: 10px;
+}
+
+.sponsorimagelight {
+  max-width: 400px;
   padding: 10px;
 }
 

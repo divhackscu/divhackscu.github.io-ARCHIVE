@@ -316,6 +316,27 @@ col:first-child {
   font-weight: bold!important;
 }
 
+/* --- LOCATIONS --- */
+
+#locations {
+  padding-top: 10%;
+  padding-bottom: 75%;
+}
+
+@media (min-width: 600px) {
+  #locations {
+    padding-top: 8%;
+    padding-bottom: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #locations {
+    padding-top: 4%;
+    padding-bottom: 25%;
+  }
+}
+
 /* --- SPONSORS --- */
 
 #sponsors {
@@ -403,6 +424,27 @@ h2 {
 @media (min-width: 800px) {
   h2 {
     font-size: 18px!important;
+  }
+}
+
+/* --- PEOPLE --- */
+
+#people {
+  padding-top: 10%;
+  padding-bottom: 75%;
+}
+
+@media (min-width: 600px) {
+  #people {
+    padding-top: 8%;
+    padding-bottom: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #people {
+    padding-top: 4%;
+    padding-bottom: 25%;
   }
 }
 

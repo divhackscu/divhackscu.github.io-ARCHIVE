@@ -284,6 +284,13 @@ a:hover {
 table {
   width: 100%;
   max-width: 800px;
+  font-size: 10px!important;
+}
+
+@media (min-width: 800px) {
+  table {
+    font-size: 12px!important;
+  }
 }
 
 th, td {

@@ -78,7 +78,7 @@ a:hover {
     opacity: 0.5;
     width: 100%;
     border-radius: 50%;
-    margin-top: -58%;
+    margin-top: -57.5%;
     z-index: -10;
   }
 }
@@ -99,6 +99,12 @@ a:hover {
   #header {
     padding-top: 20%;
     padding-bottom: 30%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #header {
+    padding-top: 15%;
   }
 }
 

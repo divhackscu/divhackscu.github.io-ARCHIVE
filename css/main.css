@@ -67,6 +67,22 @@ a:hover {
 
 /* --- HEADER --- */
 
+.headerimg {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .headerimg {
+    display: initial;
+    position: relative;
+    opacity: 0.5;
+    width: 100%;
+    border-radius: 50%;
+    margin-top: -47.5%;
+    z-index: -10;
+  }
+}
+
 #header {
   padding-top: 60%;
   padding-bottom: 75%;
@@ -141,7 +157,6 @@ a:hover {
 .info {
   margin-top: 10px;
   font-family: 'Roboto Slab', serif;
-  border-top: 1px solid #eee;
   font-size: 16px;
   padding: 10px;
 }

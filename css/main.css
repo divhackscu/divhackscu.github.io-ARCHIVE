@@ -323,6 +323,27 @@ col:first-child {
   font-weight: bold!important;
 }
 
+/* --- WORKSHOPS --- */
+
+#workshops {
+  padding-top: 10%;
+  padding-bottom: 75%;
+}
+
+@media (min-width: 600px) {
+  #workshops {
+    padding-top: 8%;
+    padding-bottom: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #workshops {
+    padding-top: 4%;
+    padding-bottom: 25%;
+  }
+}
+
 /* --- LOCATIONS --- */
 
 #locations {
@@ -366,12 +387,14 @@ col:first-child {
 }
 
 .sponsorimagedark {
+  width: 50%;
   max-width: 400px;
   background-color: #eee;
   padding: 10px;
 }
 
 .sponsorimagelight {
+  width: 50%;
   max-width: 400px;
   padding: 10px;
 }

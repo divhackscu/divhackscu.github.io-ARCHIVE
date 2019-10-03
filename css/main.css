@@ -529,6 +529,31 @@ h2 {
   }
 }
 
+.personimg {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .personimg {
+    display: initial;
+    width: 30%;
+    border: 1px solid #eee;
+    padding: 9px;
+  }
+}
+.persondesc {
+    width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .persondesc {
+    display: inline-block;
+    width: 65%;
+    text-align: left;
+    padding: 10px;
+  }
+}
+
 /* --- CONTACT --- */
 
 #contact {

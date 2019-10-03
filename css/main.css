@@ -422,7 +422,7 @@ col:first-child {
 }
 
 .sponsorimagedark {
-  width: 100%;
+  width: 60%;
   background-color: #eee;
   padding: 10px;
   margin: 10px;
@@ -438,7 +438,7 @@ col:first-child {
 }
 
 .sponsorimagelight {
-  width: 100%;
+  width: 60%;
   padding: 10px;
   margin: 10px;
 }

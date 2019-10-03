@@ -422,16 +422,30 @@ col:first-child {
 }
 
 .sponsorimagedark {
-  width: 50%;
-  max-width: 400px;
+  width: 100%;
   background-color: #eee;
   padding: 10px;
 }
 
+@media (min-width: 1000px) {
+  .sponsorimagedark {
+    width: 40%;
+    max-width: 400px;
+    background-color: #eee;
+    padding: 10px;
+  }
+}
+
 .sponsorimagelight {
-  width: 50%;
-  max-width: 400px;
+  width: 100%;
   padding: 10px;
+}
+
+@media (min-width: 1000px) {
+  .sponsorimagelight {
+    width: 40%;
+    max-width: 400px;
+  }
 }
 
 /* --- FAQ --- */

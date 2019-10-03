@@ -541,18 +541,6 @@ h2 {
     padding: 9px;
   }
 }
-.persondesc {
-    width: 100%;
-}
-
-@media (min-width: 1000px) {
-  .persondesc {
-    display: inline-block;
-    width: 65%;
-    text-align: left;
-    padding: 10px;
-  }
-}
 
 /* --- CONTACT --- */
 
